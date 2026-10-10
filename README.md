@@ -3,7 +3,7 @@
 
 Identify customers likely to churn early enough to act, and spend the retention budget where it pays off.
 
-[Live App](ISI_LINK_STREAMLIT) · [Business Dashboard](https://public.tableau.com/views/CustomerChurn--E-Commerce/Overview) · [Analysis Notebook](ecommerce_churn_project.ipynb)
+[Live App](https://ecommerce-churn-prediction-dodj5namudes7b9gjcrdgc.streamlit.app/) · [Business Dashboard](https://public.tableau.com/views/CustomerChurn--E-Commerce/Overview) · [Analysis Notebook](ecommerce_churn_project.ipynb)
 
 ## Business Problem
 
