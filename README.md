@@ -31,7 +31,7 @@ Cost of errors = missed churners x $200 + wasted offers x $20. The estimate assu
 
 ## Approach
 
-**Data.** 5,630 customers, 18 features covering tenure, order behaviour, satisfaction, complaints, payment and device preferences, and demographics. Cleaning covered inconsistent category labels, structural zeros and missing values.
+**Data.** 5,630 raw records, 5,073 after removing 557 duplicates, 18 features covering tenure, order behaviour, satisfaction, complaints, payment and device preferences, and demographics. Cleaning covered inconsistent category labels, structural zeros and missing values.
 
 **Leakage control.** The train/test split happens first (80/20, stratified). Imputation is fit on the training set only and wrapped in a `ColumnTransformer` + `Pipeline`, so no test information reaches training.
 
